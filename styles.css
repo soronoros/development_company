@@ -8,3 +8,31 @@ body {
     margin: 0 auto;
     width: 80%;
 }
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 80px;
+    align-items: center;
+    background-color: #727272;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    display: flex;
+    width: 20%;
+}
+.header__menu {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header__link {
+    color: #ffffff;
+    text-decoration: none;
+}
