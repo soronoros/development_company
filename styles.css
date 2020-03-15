@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px;
+    margin: 0;
 }
 .container {
     margin: 0 auto;
@@ -14,9 +14,9 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    height: 80px;
+    height: 100px;
     align-items: center;
-    background-color: #727272;
+    border-bottom: 1px solid #a1a1a1;
 }
 .header__container {
     display: flex;
@@ -31,8 +31,97 @@ body {
     width: 50%;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 .header__link {
     color: #ffffff;
     text-decoration: none;
+    padding: 10px;
+    font-size: .9em;
+}
+.header__link:hover {
+    background-color: #4985FF;
+}
+.main-screen {
+    display: flex;
+    height: 900px;
+    background-image: url("images/main-screen_bg.png");
+    color: #ffffff;
+    font-size: .9em;
+}
+.main-screen__container {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-screen__description {
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.button_link {
+    background-color: #4985FF;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button_link:hover {
+    background-color: #00a651;
+}
+.services {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+.services__container {
+    color: #323232;
+    display: flex;
+    width: 43%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.services__title {
+    font-size: 2.5em;
+    padding-bottom: 50px;
+}
+.services__description {
+    font-size: .9em;
+    padding-bottom: 70px;
+}
+.services__item {
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+}
+.item__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.item-image {
+    display: flex;
+}
+.item__text {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    color: #323232;
+ }
+.item__title {
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+.button__container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-content: center;
 }
