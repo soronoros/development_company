@@ -153,3 +153,44 @@ body {
     display: flex;
     background-color: #f6f6f8;
 }
+/*.instagram {
+    fill: green;
+}
+.instagram:hover {
+    fill: hotpink;
+    stroke-width: 1em;
+}
+@keyframes layout{
+    from {
+        background: green;
+        width: 100%;
+    }
+    to {
+        background: red;
+        width: 50%;
+    }
+}
+.services {
+    animation-name: layout;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+}
+.services:hover {
+    animation-play-state: paused;
+
+}
+.button-link:active {
+    transform: scale(2)
+}*/
+@keyframes rot-gear {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+.gear {
+    animation-name: rot-gear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
