@@ -25,6 +25,7 @@ body {
     margin: 0 auto;
     width: 80%;
 }
+
 .header {
     display: flex;
     position: fixed;
@@ -34,6 +35,10 @@ body {
     height: 100px;
     align-items: center;
     border-bottom: 1px solid #a1a1a1;
+}
+.header:hover {
+    background-color: rgba(25,25,25,0.5);
+    transition: 500ms background-color linear;
 }
 .header__container {
     display: flex;
@@ -60,6 +65,7 @@ body {
     border-bottom: 2px solid #ffffff;
     /*background-color: #4985FF;*/
 }
+
 .main-screen {
     display: flex;
     height: 900px;
@@ -92,6 +98,7 @@ body {
 .button_link:hover {
     background-color: #00a651;
 }
+
 .services {
     display: flex;
     padding-top: 100px;
@@ -125,14 +132,13 @@ body {
     justify-content: space-between;
     padding-bottom: 50px;
 }
-.item-image {
-    display: flex;
-}
 .item__text {
-    padding: 10px;
+    padding: 45px 10px 10px 10px;
     color: #323232;
-    padding-top: 45px;
  }
+.item__description {
+    font-size: 0.9em;
+}
 .item__title {
     font-size: 1em;
     padding-bottom: 5px;
@@ -143,54 +149,69 @@ body {
     justify-content: center;
     align-content: center;
 }
-/*.parent :nth-child(3n) {
-    color: red;
-}
-.test::after {
-    content: "DDD";
-}*/
+
 .about-us {
     display: flex;
     background-color: #f6f6f8;
 }
-/*.instagram {
-    fill: green;
+.about-us__head {
+    padding: 100px 0 100px 0;
+    height: 690px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
 }
-.instagram:hover {
-    fill: hotpink;
-    stroke-width: 1em;
+.head__text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
 }
-@keyframes layout{
-    from {
-        background: green;
-        width: 100%;
-    }
-    to {
-        background: red;
-        width: 50%;
-    }
+.text__title {
+    font-size: 2.5em;
 }
-.services {
-    animation-name: layout;
-    animation-duration: 3s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 3;
+.text__description {
+    font-size: 0.9em;
+    padding: 45px 0 45px 0;
 }
-.services:hover {
-    animation-play-state: paused;
-
+.text__link {
+    font-size: 0.9em;
 }
-.button-link:active {
-    transform: scale(2)
-}*/
-@keyframes rot-gear {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+.head__image {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-content: center;
 }
-.gear {
-    animation-name: rot-gear;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    
+.about-us__numbers {
+    display: flex;
+    width: 12%;
+    padding: 70px 0 70px 0;
+    flex-direction: column;
+}
+.numbers__container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+}
+.numbers__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.numbers__image {
+    display: flex;
+    align-items: center;
+}
+.numbers__count {
+    font-size: 2.5em;
+}
+.numbers__text {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
 }
