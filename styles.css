@@ -125,6 +125,7 @@ body {
     .services__description {
         font-size: 1.1vw;
         padding-bottom: 5vw;
+        color: #999;
     }
     .services__item {
         display: flex;
@@ -151,6 +152,7 @@ body {
     }
     .item__description {
         font-size: 1.1vw;
+        color: #999;
     }
     .button__container {
         display: flex;
@@ -182,8 +184,9 @@ body {
         font-size: 2.5em;
     }
     .text__description {
-        font-size: 1vw;
+        font-size: 1.1vw;
         padding: 45px 0 45px 0;
+        color: #999;
     }
     .text__link {
         font-size: 0.9em;
@@ -221,7 +224,8 @@ body {
         font-size: 2.5em;
     }
     .numbers__text {
-        font-size: 0.9em;
+        font-size: 1.1vw;
+        color: #999;
         display: flex;
         justify-content: center;
         align-content: flex-end;
@@ -271,7 +275,8 @@ body {
         font-size: 1.5vw;
     }
     .sp-items__description {
-        font-size: 1vw;
+        font-size: 1.1vw;
+        color: #999;
     }
     .specialization__head {
         position: absolute;
@@ -280,4 +285,39 @@ body {
         z-index: -1;
         background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
     }
+
+    .projects {
+        background-color: #f6f6f8;
+        height: 55vw;
+    }
+    .projects__container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 50px 0 50px 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .projects__title {
+        font-size: 2.5vw;
+    }
+    .projects_description {
+        font-size: 1.1vw;
+        color: #999;
+        width: 60%;
+    }
+    .projects__example {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .projects__image {
+        width: 20%;
+    }
+    .example__image {
+        width: 100%;
+        height: auto;
+    }
 }
+
