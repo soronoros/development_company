@@ -182,11 +182,12 @@ body {
         font-size: 2.5em;
     }
     .text__description {
-        font-size: 0.9em;
+        font-size: 1vw;
         padding: 45px 0 45px 0;
     }
     .text__link {
         font-size: 0.9em;
+        color: #4985FF;
     }
     .head__image {
         display: flex;
@@ -194,7 +195,6 @@ body {
         justify-content: flex-end;
         align-content: center;
     }
-
     .about-us__numbers {
         display: flex;
         width: 12%;
@@ -225,5 +225,59 @@ body {
         display: flex;
         justify-content: center;
         align-content: flex-end;
+    }
+
+    .specialization {
+        display: flex;
+        height: 65vw;
+    }
+    .specialization__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 80%;
+    }
+    .specialization__title {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .title__text {
+        width: 45%;
+        font-size: 2.5vw;
+        color: #ffffff;
+    }
+    .specialization__items {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        height: 700px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .sp-items__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30%;
+    }
+    .sp-items__image {
+        width: 100%;
+        height: auto;
+    }
+    .sp-items__title {
+        font-size: 1.5vw;
+    }
+    .sp-items__description {
+        font-size: 1vw;
+    }
+    .specialization__head {
+        position: absolute;
+        width: 100%;
+        height: 30vw;
+        z-index: -1;
+        background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
     }
 }
